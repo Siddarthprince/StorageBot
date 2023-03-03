@@ -33,8 +33,8 @@ SHORTENER_API = "jdisk.cloud"
 SHORTENER_SITE = "6521569d4643af31e7ea0699fe7bf0a82b1dc713"
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://yatyrpxz:qzm5PfPLy7HsmT3vxBzEkCZBgrMH2M1i@batyr.db.elephantsql.com/yatyrpxz")
-DB_NAME = os.environ.get("DATABASE_NAME", "Siddarthf")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://siddarthceo:siddarthceo@filesharebot.v8mwdbb.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharebot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001892307076"))
