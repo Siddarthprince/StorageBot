@@ -29,8 +29,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5937683464"))
 PORT = os.environ.get("PORT", "8080")
 
 #shortlink
-SHORTENER_API = "jdisk.cloud"
-SHORTENER_SITE = "6521569d4643af31e7ea0699fe7bf0a82b1dc713"
+SHORTENER_API = "6521569d4643af31e7ea0699fe7bf0a82b1dc713"
+SHORTENER_SITE = "jdisk.cloud"
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://siddarthceo:siddarthceo@filesharebot.v8mwdbb.mongodb.net/?retryWrites=true&w=majority")
